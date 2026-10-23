@@ -1,0 +1,3 @@
+model,N,median_abs_error,p95_abs_error,max_abs_error
+Lorentz scalar z=-k^2/Lambda^2,12000,0.0,1.1102230246251565e-16,5.10702591327572e-15
+anisotropic negative control,12000,0.001095954327158477,0.13084260429032718,0.7059687438262748

@@ -1,0 +1,59 @@
+{
+  "repo": "vgm-limited-core",
+  "status": "PASS",
+  "checked_utc": "2026-10-21T16:54:21.651849+00:00",
+  "commands": [
+    {
+      "command": [
+        "python",
+        "vgm_invariant_geometry_benchmark_v2.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.696,
+      "stdout": "local(100)= 6.407756278981387 gaussian(100)= 1.245463461724684\nRun the accompanying CSV tables and Appendix for the full Monte Carlo specifications.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "cp04/run_scope_study.py",
+        "--out",
+        "checks/scope_rerun"
+      ],
+      "exit_code": 0,
+      "seconds": 1.525,
+      "stdout": "{\n  \"date\": \"2026-10-13\",\n  \"seed\": 20261013,\n  \"study\": \"New independently implemented scope study; archived v2 driver not recovered\",\n  \"scale_relative_error_max\": 6.642619022211646e-16,\n  \"Q_only_rescaling_median_F_change\": 0.3105393361506587,\n  \"lorentz_relative_error_max\": 1.3570624707221812e-15,\n  \"transversality_residual_max\": 3.274720483907066e-16,\n  \"normalized_eigenvalue_error_max\": 1.7763568394002505e-15,\n  \"exact_jets\": {\n    \"gaussian\": [\n      \"1\",\n      \"-1\",\n      \"1/2\",\n      \"-1/6\",\n      \"1/24\",\n      \"-1/120\",\n      \"1/720\"\n    ],\n    \"rescaled_gaussian\": [\n      \"1\",\n      \"-2\",\n      \"2\",\n      \"-4/3\",\n      \"2/3\",\n      \"-4/15\",\n      \"4/45\"\n    ],\n    \"super_gaussian\": [\n      \"1\",\n      \"0\",\n      \"-1\",\n      \"0\",\n      \"1/2\",\n      \"0\",\n      \"-1/6\"\n    ],\n    \"pole_mutant\": [\n      \"1\",\n      \"-1\",\n      \"1/2\",\n      \"-1/6\",\n      \"-23/24\",\n      \"119/120\",\n      \"-359/720\"\n    ]\n  },\n  \"finite_poles\": {\n    \"gaussian\": 0,\n    \"rescaled_gaussian\": 0,\n    \"super_gaussian\": 0,\n    \"pole_mutant\": 4\n  },\n  \"scalar_difference\": [\n    {\n      \"scale\": 0.05,\n      \"n\": 1000,\n      \"median_relative_residual\": 0.002647399318816972,\n      \"min_relative_residual\": 1.0011483891327552e-05,\n      \"max_relative_residual\": 0.0164692914035838\n    },\n    {\n      \"scale\": 0.1,\n      \"n\": 1000,\n      \"median_relative_residual\": 0.01053789610588396,\n      \"min_relative_residual\": 6.675745935461176e-05,\n      \"max_relative_residual\": 0.04440056535415354\n    },\n    {\n      \"scale\": 0.25,\n      \"n\": 1000,\n      \"median_relative_residual\": 0.056903810728527585,\n      \"min_relative_residual\": 0.00012033504294676103,\n      \"max_relative_residual\": 0.30144720930567614\n    },\n    {\n      \"scale\": 0.5,\n      \"n\": 1000,\n      \"median_relative_residual\": 0.170145139311764,\n      \"min_relative_residual\": 0.0014534694160033973,\n      \"max_relative_residual\": 0.5322392520679285\n    },\n    {\n      \"scale\": 1.0,\n      \"n\": 1000,\n      \"median_relative_residual\": 0.34334086156596844,\n      \"min_relative_residual\": 1.20452003708806e-16,\n      \"max_relative_residual\": 0.7854785387560548\n    }\n  ],\n  \"integrals\": [\n    {\n      \"R\": 1.0,\n      \"local\": 1.8125107534701348,\n      \"damped\": 1.2213840785000158\n    },\n    {\n      \"R\": 2.0,\n      \"local\": 2.498227596446302,\n      \"damped\": 1.245444713965949\n    },\n    {\n      \"R\": 5.0,\n      \"local\": 3.412422885470797,\n      \"damped\": 1.245463461724684\n    },\n    {\n      \"R\": 10.0,\n      \"local\": 4.105270178488758,\n      \"damped\": 1.245463461724684\n    },\n    {\n      \"R\": 100.0,\n      \"local\": 6.4077562789813864,\n      \"damped\": 1.2454634617246843\n    }\n  ],\n  \"damped_integral_infinite\": 1.2454634617246854,\n  \"passed_declared_checks\": true,\n  \"source_sha256\": \"3e8ca02eda190870e448949545dac03cf4fb9ae7e5da07ae7d17e1b94f8ea364\",\n  \"python\": \"3.13.5\",\n  \"numpy\": \"2.3.5\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "scope": "Original limited core plus exact recovered CP04 finite-scope study passed. Full historical v2 driver still missing; not a full v2 replay.",
+  "source": {
+    "source_drive_id": "1lBcu9eAWQpVEVStABApFrpuwbQ_uqg5O",
+    "archive_sha256": "b399d3d92eb61b8bc947caeec219cc1a7c190b4b66c56038d30737a31f1d3965",
+    "files": [
+      {
+        "path": "cp04/results/PROTOCOL.json",
+        "sha256": "b125e8c1daa36249b8a8951c56e9d9078c9699e0582f8ad25eab1e3d9f789c59",
+        "source_member": "vgm_invariant_geometry_benchmark_v2/cp04/results/PROTOCOL.json"
+      },
+      {
+        "path": "cp04/results/RESULT.json",
+        "sha256": "ebd84c61a39944e9aa7305777409c2a36d07ab6926673fefd8c5c95eb15d751c",
+        "source_member": "vgm_invariant_geometry_benchmark_v2/cp04/results/RESULT.json"
+      },
+      {
+        "path": "cp04/results/scalar_difference_tests.csv",
+        "sha256": "5453183b535432bd605adc99094ff8f4486a4102ce2ff88a02032bc68d0b15e0",
+        "source_member": "vgm_invariant_geometry_benchmark_v2/cp04/results/scalar_difference_tests.csv"
+      },
+      {
+        "path": "cp04/run_scope_study.py",
+        "sha256": "3e8ca02eda190870e448949545dac03cf4fb9ae7e5da07ae7d17e1b94f8ea364",
+        "source_member": "vgm_invariant_geometry_benchmark_v2/cp04/run_scope_study.py"
+      }
+    ],
+    "full_v2_driver_recovered": false
+  },
+  "environment": "Existing Linux NumPy/SciPy environment.",
+  "scientific_thresholds_or_sample_counts_changed": false
+}

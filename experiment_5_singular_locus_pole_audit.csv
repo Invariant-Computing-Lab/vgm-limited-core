@@ -1,0 +1,5 @@
+kernel,propagator,finite_extra_poles,massless_pole_z0,singular_locus_class
+Gaussian exp(-z),exp(-z)/z,none,preserved,{0}
+rescaled Gaussian exp(-2z),exp(-2z)/z,none,preserved,{0}
+Super-Gaussian exp(-z^2),exp(-z^2)/z,none,preserved,{0}
+pole-mutant exp(-z)/(1+z^4),exp(-z)/[z(1+z^4)],4 complex roots of z^4=-1,preserved,{0} plus 4 finite complex poles

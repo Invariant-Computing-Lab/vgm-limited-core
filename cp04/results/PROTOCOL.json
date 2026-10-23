@@ -1,0 +1,16 @@
+{
+  "seed": 20261013,
+  "n_scale": 5000,
+  "n_lorentz": 2000,
+  "n_kinetic": 2000,
+  "n_scalar_per_scale": 1000,
+  "scalar_scales": [
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "tolerance": 1e-10,
+  "interpretation": "Independent source-motivated mathematical checks; not historical v2 reproduction, full gauge completion, experiment, or quantum UV validation."
+}

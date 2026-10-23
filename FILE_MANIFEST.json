@@ -1,0 +1,122 @@
+[
+  {
+    "path": ".github/workflows/source-check.yml",
+    "bytes": 282,
+    "sha256": "ee3916cd30ed52bbdf5f183c874e542fb06f07f073c5434ab1a43a991fc760b0"
+  },
+  {
+    "path": "Appendix_B_Quotient_Geometric_Synthetic_Falsification_v2.md",
+    "bytes": 13715,
+    "sha256": "fa4a0dc77b43c2624d08bb252035fdf56f0b6e2f45169f225800e11e4772b70d"
+  },
+  {
+    "path": "CITATION.cff",
+    "bytes": 206,
+    "sha256": "8620ed4ef88f9fbb4c9786cb75e150415edccb83a1bde9457be7b837068676a6"
+  },
+  {
+    "path": "DEPENDENCIES_AND_CHECKS.md",
+    "bytes": 488,
+    "sha256": "702ee767829da72859cf6bcabd87b953e99ba8afd508ed19b2a736687150329c"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1843,
+    "sha256": "058b869ba5113da147914d16b9e4ddbfd3b55373ca27098f7893ab7d2b631099"
+  },
+  {
+    "path": "RELEASE_NOTES.md",
+    "bytes": 215,
+    "sha256": "ff1d760ca9965999eb8e3b81b9eab0c150f3ef3ff9482fa22ad6de93bc938326"
+  },
+  {
+    "path": "RELEASE_SPEC.json",
+    "bytes": 1000,
+    "sha256": "307abd291749307e6107618c05394dfe68764b13f5bc9caea58560e2a76fc9d3"
+  },
+  {
+    "path": "UPSTREAM_README.md",
+    "bytes": 658,
+    "sha256": "a0cc1b9cb01d73d39c63ac76521a7e8859763fc085f590a35af26df2cf32871b"
+  },
+  {
+    "path": "checks/RESULT.json",
+    "bytes": 642,
+    "sha256": "2c05d4708231aefd229c49d916cb4863a5adcbcfdf661bb806816e826e43cdbe"
+  },
+  {
+    "path": "experiment_1_quotient_scale_invariance.csv",
+    "bytes": 283,
+    "sha256": "2fb7cd678b14caa846afef408dd924cf43f89097c69e36ea3a0e22b3ba8d33ba"
+  },
+  {
+    "path": "experiment_2_lorentz_invariance.csv",
+    "bytes": 233,
+    "sha256": "a0cf837b463aacc4ff2236ef41ba2a5337c8bb9f9a4e266a850755ff7745a4ca"
+  },
+  {
+    "path": "experiment_3_rank_spectrum_transversality.csv",
+    "bytes": 424,
+    "sha256": "852fec6240c6af79bfface15faa741c8f77a8798aa98fde97d6bbf3cbe0b31e7"
+  },
+  {
+    "path": "experiment_4_leading_scaling_degree.csv",
+    "bytes": 246,
+    "sha256": "c1a8f679496aaa007083b1ee60c2085db1ee4fba0377897d93e6c6a4699650c3"
+  },
+  {
+    "path": "experiment_5_singular_locus_pole_audit.csv",
+    "bytes": 349,
+    "sha256": "fcc6fa04f8764843aa3a69cb39a8997df8c68334ec78f3cf5b32f577f9ccb07a"
+  },
+  {
+    "path": "experiment_6_quotient_normalized_jet.csv",
+    "bytes": 278,
+    "sha256": "f38306912b583e8721d3ca0938e7a7793e141e9f78294e4d4eed80b8b46185fd"
+  },
+  {
+    "path": "experiment_7_reconstructibility_fingerprint.csv",
+    "bytes": 293,
+    "sha256": "c0facde76a186e240fc7165beba4ec63079db9c3bc4c4459eba3f07e21b02ac4"
+  },
+  {
+    "path": "experiment_7b_reconstructibility_ladder.csv",
+    "bytes": 178,
+    "sha256": "cf54f9abe229b4d972d38177921ab0e50a056a591f43b6020109a76abe5a004c"
+  },
+  {
+    "path": "experiment_8_scalar_vertex_relational_stress.csv",
+    "bytes": 353,
+    "sha256": "2951fd4b83cc03f1c769a4b8a11c6c57aa1820eb82e6fdd2e28499fae8b79f93"
+  },
+  {
+    "path": "experiment_9_uv_admissibility_proxy.csv",
+    "bytes": 371,
+    "sha256": "3b28ad97633bfe09972455ff4bd463c15e8021d7ad3cad9533d0bb81eca7835f"
+  },
+  {
+    "path": "figure_1_reconstructibility_ladder.png",
+    "bytes": 81130,
+    "sha256": "106509c9bd843fec15eac9554b4b202b5809af54148d2dd2ead803f3ec4648a0"
+  },
+  {
+    "path": "figure_2_scalar_vertex_stress.png",
+    "bytes": 95824,
+    "sha256": "04b0a1123cf3463fe053ef6fcdcdc546062bd5c4655a2414a5407a162dab57d3"
+  },
+  {
+    "path": "figure_3_uv_admissibility.png",
+    "bytes": 72511,
+    "sha256": "335a0186e341c40910009e53a52f2bca70cbd02cb6c9df169552f5d05820e3e9"
+  },
+  {
+    "path": "run_checks.py",
+    "bytes": 2366,
+    "sha256": "9a59bff276aad8abeba201a01fa2a29525db6af9e71ebb83a58a7cc6cea56990"
+  },
+  {
+    "path": "vgm_invariant_geometry_benchmark_v2.py",
+    "bytes": 701,
+    "sha256": "b6b06094faddb0ea3fd66efb77665c87894fa6a3f76d000d8582ab75af9bfffe"
+  }
+]

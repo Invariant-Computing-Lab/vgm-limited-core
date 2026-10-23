@@ -1,0 +1,3 @@
+condition,N,median_abs_delta_z,p95_abs_delta_z,median_abs_delta_F,p95_abs_delta_F
+"simultaneous Q,Lambda rescaling",20000,0.0,4.440892098500626e-16,0.0,1.1102230246251565e-16
+Q-only negative control,20000,0.02666065654697293,6.320610620261849,0.015372082052393491,0.4730493583939714

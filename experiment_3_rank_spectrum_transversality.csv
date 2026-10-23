@@ -1,0 +1,3 @@
+condition,N,median_transversality_residual,p95_transversality_residual,rank3_fraction,median_normalized_spectrum_distance,p95_normalized_spectrum_distance
+scalar Gaussian inverse-kinetic deformation,10000,4.470516783753016e-17,9.45472396544837e-17,1.0,1.3597952192168354e-16,2.607535179706351e-16
+tensor-breaking negative control,10000,0.007596137567719598,0.09306358331463258,0.0007,0.005503527938371855,0.0631108042304324

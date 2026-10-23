@@ -1,0 +1,32 @@
+{
+  "repo": "vgm-limited-core",
+  "codes": [
+    "N005"
+  ],
+  "commands": [
+    [
+      "python",
+      "vgm_invariant_geometry_benchmark_v2.py"
+    ],
+    [
+      "python",
+      "cp04/run_scope_study.py",
+      "--out",
+      "checks/scope_rerun"
+    ]
+  ],
+  "check_cwd": ".",
+  "scope": "Preserved VGM limited core plus recovered original CP04 finite-scope study. Both are executable. The historical full v2 driver remains unavailable; no full v2 replay, gauge completion or physical validation is claimed.",
+  "status": "LOCAL_RUNTIME_PASSED_OWNER_GATES_OPEN",
+  "source_unchanged": true,
+  "source_archive_sha256": "0f1ba9cfbf30381efa04efd7af30dda4f71419ff6c6ce0b700a670ec6e54c388",
+  "owner_approval_required": true,
+  "public_uploaded": false,
+  "source_reference": "See private release registry; source hashes retained.",
+  "last_check": {
+    "passed": true,
+    "checked_utc": "2026-10-21T16:54:21.651849+00:00",
+    "scope": "Original limited core plus exact recovered CP04 finite-scope study passed. Full historical v2 driver still missing; not a full v2 replay."
+  },
+  "runtime_status": "PASS"
+}

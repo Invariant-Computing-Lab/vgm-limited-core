@@ -1,0 +1,5 @@
+kernel,quotient_class,IR_degree,J3,extra_pole_class
+G: exp(-z),Gaussian,1,"(-1, 1/2, -1/6)",none
+G2: exp(-2z),Gaussian,1,same after z'=2z normalization,none
+SG: exp(-z^2),SuperGaussian,2,"(0, -1, 0)",none
+P: exp(-z)/(1+z^4),PoleMutant,1,same as Gaussian through order 3,4 finite complex poles

@@ -1,0 +1,3 @@
+kernel,true_leading_degree,median_fitted_degree,p05_fitted_degree,p95_fitted_degree
+Gaussian exp(-z),1.0,0.9973431694596929,0.9966914233806852,0.9979752451156337
+Super-Gaussian exp(-z^2),2.0,1.9999269793284906,1.999302296685427,2.000582818307121

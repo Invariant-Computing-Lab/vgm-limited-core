@@ -1,0 +1,27 @@
+{
+  "source_drive_id": "1lBcu9eAWQpVEVStABApFrpuwbQ_uqg5O",
+  "archive_sha256": "b399d3d92eb61b8bc947caeec219cc1a7c190b4b66c56038d30737a31f1d3965",
+  "files": [
+    {
+      "path": "cp04/results/PROTOCOL.json",
+      "sha256": "b125e8c1daa36249b8a8951c56e9d9078c9699e0582f8ad25eab1e3d9f789c59",
+      "source_member": "vgm_invariant_geometry_benchmark_v2/cp04/results/PROTOCOL.json"
+    },
+    {
+      "path": "cp04/results/RESULT.json",
+      "sha256": "ebd84c61a39944e9aa7305777409c2a36d07ab6926673fefd8c5c95eb15d751c",
+      "source_member": "vgm_invariant_geometry_benchmark_v2/cp04/results/RESULT.json"
+    },
+    {
+      "path": "cp04/results/scalar_difference_tests.csv",
+      "sha256": "5453183b535432bd605adc99094ff8f4486a4102ce2ff88a02032bc68d0b15e0",
+      "source_member": "vgm_invariant_geometry_benchmark_v2/cp04/results/scalar_difference_tests.csv"
+    },
+    {
+      "path": "cp04/run_scope_study.py",
+      "sha256": "3e8ca02eda190870e448949545dac03cf4fb9ae7e5da07ae7d17e1b94f8ea364",
+      "source_member": "vgm_invariant_geometry_benchmark_v2/cp04/run_scope_study.py"
+    }
+  ],
+  "full_v2_driver_recovered": false
+}
